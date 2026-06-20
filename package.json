@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "chain": "tsx src/chain.ts",
+    "agent": "tsx src/agent.ts",
+    "memory": "tsx src/memoryDemo.ts"
+  },
+  "dependencies": {
+    "@langchain/core": "latest",
+    "@langchain/openai": "latest",
+    "langchain": "latest",
+    "dotenv": "latest",
+    "zod": "latest"
+  },
+  "devDependencies": {
+    "tsx": "latest",
+    "typescript": "latest",
+    "@types/node": "latest"
+  },
+  "type": "module"
+}
